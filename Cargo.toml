@@ -1,0 +1,15 @@
+[package]
+name = "gg-alloc"
+version = "1.0.0"
+authors = ["Badel2 <2badel2@gmail.com>"]
+edition = "2021"
+license = "GPL-3.0"
+description = """
+A custom allocator that only returns pointers above 2G
+"""
+repository = "https://github.com/Badel2/gg-alloc"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
